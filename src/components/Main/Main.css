@@ -1,0 +1,33 @@
+#container-main {
+   display: flex; 
+   flex-direction: column;
+}
+
+.box-forces {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.box-description-force {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+}
+
+.box-info-force p {
+    font-size: 16px;
+    width: 25em;
+}
+
+.container-big-force img {
+    width: 210px;
+}
+    
+.box-forces img {
+    width: 12rem;
+    cursor: pointer;
+}
+
