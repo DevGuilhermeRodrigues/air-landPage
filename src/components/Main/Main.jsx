@@ -5,9 +5,9 @@ import airForce2 from '../../assets/airForce03.png'
 import airForce3 from '../../assets/airForce04.png'
 import airForce4 from '../../assets/airForce05.png'
 
-export default function Main() {
+export default function Main({tenis}) {
 
-  const [imagem, setImagem] = useState(airForce3)
+  const [imagem, setImagem] = useState(airForce2)
 
   function handleClick({target}){
     setImagem(target.src)
